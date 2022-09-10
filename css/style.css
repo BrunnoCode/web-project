@@ -477,6 +477,44 @@ footer {
     background: var(--color-bg2);
     color: var(--color-white);
   }
+/* ########################## HEADER ######################### */
+  header {
+    height: 52vh;
+    margin-bottom: 4rem;
+  }
+  .header_container {
+    gap: 0;
+    padding-bottom: 3rem;
+  }
+/* ########################## CATEGORIES ######################### */
+  .categories {
+    height: auto;
+  }
+  .categories_container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .categories_left {
+    margin-right: 0;
+  }
+  /* ########################## POPULAR COURSES ######################### */
+  .courses {
+    margin-top: 0;
+  }
+
+  .courses_container{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* ########################## FAQs ######################### */
+  .faqs_container {
+    grid-template-columns: 1fr;
+  }
+  .faq {
+    padding: 1.5rem;
+  }
+  /* ########################## TESTIMONIALS ######################### */
+
 
 }
 
