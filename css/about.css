@@ -170,8 +170,8 @@
     gap: 0.7rem;
   }
   section .team {
-    padding: 0rem;
-    margin-top: 5rem;
+    padding: 1rem;
+    margin-block: 5rem;
   }
   .team_container {
     grid-template-columns: 1fr 1fr;
