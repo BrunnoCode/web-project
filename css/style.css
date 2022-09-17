@@ -28,7 +28,6 @@
   --transition: all 400ms ease;
 }
 
-
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.7;
@@ -361,8 +360,6 @@ header {
   transform: rotate(45deg);
 }
 
-
-
 /* ########################## FOOTER ######################### */
 footer {
   background: var(--color-bg1);
@@ -515,9 +512,16 @@ footer ul li a:hover {
   .faq {
     padding: 1.5rem;
   }
+  /* ########################## TESTIMONIALS ######################### */
+
+  .swiper-pagination {
+    top: 45rem;
+  }
+
   /* ########################## FOOTER ######################### */
   .footer_container {
     grid-template-columns: 1fr 1fr;
+    font-size: 1.5rem;
   }
 }
 
@@ -548,6 +552,10 @@ footer ul li a:hover {
     gap: 0.7rem;
     
   }
+  section {
+    padding-inline: 1rem;
+  }
+    
   .category {
     padding: 1rem;
     border-radius: 1rem;
@@ -563,6 +571,9 @@ footer ul li a:hover {
   /* ########################## TESTIMONIALS ######################### */
   .testimonial_body {
     padding: 1.2rem;
+  }
+  .testimonial_body::before {
+    left: 9.7rem;
   }
   /* ########################## FOOTER ######################### */
   .footer_container {
