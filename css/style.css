@@ -341,7 +341,9 @@ header {
   margin-top: 3rem;
   position: relative;
 }
-
+.swiper-pagination {
+  top: 45rem;
+}
 .testimonial_body::before {
   content: "";
   display: block;
