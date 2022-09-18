@@ -413,17 +413,24 @@ footer ul li a:hover {
   align-items: center;
   padding: 0.5rem;
   border-radius: 0.6rem;
-  transition: 0.4s;
+ 
+  transition: 0.6s;
+  position: relative;
 }
+
 .link:hover {
-transform: rotate(45deg);
+transform: rotate(360deg);
+
 
 }
 .link:nth-child(1):hover {
 background: rgb(23, 9, 216);
+
+
 }
 .link:nth-child(2):hover {
 background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
 }
 .link:nth-child(3):hover {
 background: rgb(51, 149, 240);
