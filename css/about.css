@@ -96,9 +96,12 @@
   border-color: var(--color-primary);
 }
 
-.team_member-image img {
+.team_member-image img  {
   filter: saturate(0);
   transition: var(--transition);
+}
+.team_member-image img {
+  height: 70%;
 }
 
 .team_member-image img:hover {
@@ -190,6 +193,10 @@
   .team_member {
     padding: 1rem;
   }
+  .team_member-image img {
+    height: 60%;
+  }
+  
 }
 /* #################################################  MEDIA QUERIES (PHONES) ########################################## */
 @media screen and (max-width: 600px) {

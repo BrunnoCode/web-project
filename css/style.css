@@ -557,6 +557,10 @@ background: rgb(5, 19, 219);
     top: 45rem;
   }
 
+  .testimonial_body::before {
+    left: 42%;
+  }
+
   /* ########################## FOOTER ######################### */
   .footer_container {
     grid-template-columns: 1fr 1fr;
@@ -612,7 +616,7 @@ background: rgb(5, 19, 219);
     padding: 1.2rem;
   }
   .testimonial_body::before {
-    left: 9.5rem;
+    left: 42%;
   }
   /* ########################## FOOTER ######################### */
   .footer_container {
